@@ -15,3 +15,4 @@ CREATE TABLE students (
   cohort_end_date DATE,
   cohort_id INTEGER References cohorts(id) ON DELETE CASCADE
 );
+
